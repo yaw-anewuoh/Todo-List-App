@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/my_cardcolor">
+
+    <EditText
+        android:id="@+id/newEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="new task"
+        android:textColor="?attr/my_txtcolor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/taskButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newEditText"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="save"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+
+
+
+</RelativeLayout>

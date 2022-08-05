@@ -1,0 +1,9 @@
+<resources>
+<declare-styleable name="dt">
+    <attr name="my_bgcolor" format="color"></attr>
+    <attr name="my_txtcolor" format="color"></attr>
+    <attr name="my_cardcolor" format="color"></attr>
+    <attr name="my_taskcolor" format="color"></attr>
+</declare-styleable>
+
+</resources>

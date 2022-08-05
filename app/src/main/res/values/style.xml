@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/myBlue</item>
+        <item name="colorAccent">@color/myGray</item>
+        <item name="my_bgcolor">#ffffff</item>
+        <item name="my_txtcolor">#000000</item>
+        <item name="my_cardcolor">#ffffff</item>
+        <item name="my_taskcolor">#000000</item>
+
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/myGray</item>
+        <item name="my_bgcolor">#000000</item>
+        <item name="my_txtcolor">#000000</item>
+        <item name="my_cardcolor">#ffffff</item>
+        <item name="my_taskcolor">#ffffff</item>
+    </style>
+</resources>
